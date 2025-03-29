@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "name": "A for Aletta",
+      "background_image": "/AForAletta.webp"
+    },
+    {
+      "id": 2,
+      "name": "Lone Star Ride",
+      "background_image": "/LoneStarRide.webp"
+    }
+  ]

@@ -1,7 +1,12 @@
 import { Grid, GridItem, Show } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
+import gamesJson from "./data/games.json";
+import { Game } from "./components/Game";
+import GameGrid from "./components/GameGrid";
 
 function App() {
+  const games: Game[] = gamesJson;
+  console.log(games);
   return (
     <Grid
       templateAreas={{
@@ -19,7 +24,9 @@ function App() {
       <Show above="lg">
         <GridItem area="aside">Aside</GridItem>
       </Show>
-      <GridItem area="main">Main</GridItem>
+      <GridItem area="main">
+        <GameGrid games={games}></GameGrid>
+      </GridItem>
     </Grid>
   );
 }
