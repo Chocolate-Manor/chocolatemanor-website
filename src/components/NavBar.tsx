@@ -9,7 +9,6 @@ const NavBar = () => {
         width="100px"
         height="auto"
       />
-      <text>Nav</text>
     </HStack>
   );
 };
