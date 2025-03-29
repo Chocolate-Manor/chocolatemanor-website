@@ -1,16 +1,30 @@
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import Alert from "./components/Alert";
+import Button from "./components/Button";
+import ListGroup from "./components/ListGroup";
 
 function App() {
+  let items = ["A for Aletta", "Lone Star Ride"];
+
+  const handleSelectItem = (item: string) => {
+    console.log(item);
+  };
   return (
-    <>
-      <Button colorScheme="blue">Button</Button>
+    <div>
+      <ListGroup
+        items={items}
+        heading="Games"
+        onSelectItem={handleSelectItem}
+      />
+      <Alert>
+        what<span>now</span>
+      </Alert>
       <Button
-        colorScheme="teal"
-        variant="outline"
+        color="link"
+        onClick={() => console.log("clicked")}
       >
-        Button
+        what the heck dude
       </Button>
-    </>
+    </div>
   );
 }
 
