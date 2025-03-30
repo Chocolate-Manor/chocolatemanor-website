@@ -10,7 +10,7 @@ const NavBar = () => {
         width="100px"
         height="auto"
       />
-      <Text color="white">Welcome, Dear Stranger.</Text>
+      <Text color="white">Chocolate Manor</Text>
       <Spacer />
       <ColorModeSwitch></ColorModeSwitch>
     </HStack>
