@@ -2,13 +2,13 @@
     {
       "id": 1,
       "name": "A for Aletta",
-      "background_image": "/AForAletta.webp",
+      "background_image": "/chocolatemanor-website/AForAletta.webp",
       "external_url": "https://play.google.com/store/apps/details?id=com.ChocolateManor.AforAletta"
     },
     {
       "id": 2,
       "name": "Lone Star Ride",
-      "background_image": "/LoneStarRide.webp",
+      "background_image": "/chocolatemanor-website/LoneStarRide.webp",
       "external_url": "https://lonestargame.com/"
     }
   ]
