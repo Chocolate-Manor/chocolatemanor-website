@@ -5,7 +5,6 @@ import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
 import "./index.css";
 import App from "./App.tsx";
 import theme from "./theme.ts";
-import AForAlettaPage from "./pages/AForAlettaPage.tsx";
 
 const router = createHashRouter([
   {
