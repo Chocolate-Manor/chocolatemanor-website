@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import gamesJson from "./data/games.json";
 import { Game } from "./components/Game";
 import GameGrid from "./components/GameGrid";
-import { Box, Link, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import Banner from "./components/Banner";
 
 function App() {
@@ -40,15 +40,6 @@ function App() {
 
       <GridItem area="main">
         <GameGrid games={games}></GameGrid>
-        <Box
-          as="footer"
-          py={10}
-          textAlign="center"
-        >
-          <Link href="/a-for-aletta/privacy-policy/">
-            A for Aletta privacy policy
-          </Link>
-        </Box>
       </GridItem>
     </Grid>
   );

@@ -7,8 +7,14 @@
     },
     {
       "id": 2,
-      "name": "Lone Star Ride",
-      "background_image": "/LoneStarRide.webp",
-      "external_url": "https://lonestargame.com/"
+      "name": "Until You're Better",
+      "background_image": "/UntilYoureBetter.webp",
+      "external_url": "https://haochengyang.itch.io/until-youre-better"
+    },
+    {
+      "id": 3,
+      "name": "Technocene: Down and Out on Ganymede",
+      "background_image": "/Technocene.webp",
+      "external_url": "https://store.steampowered.com/app/5046360/Technocene_Down_and_Out_on_Ganymede/"
     }
   ]
